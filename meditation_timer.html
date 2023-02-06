@@ -292,14 +292,14 @@ const resetBtn = document.getElementById('reset');
 //Timer variables
 let intervalTimer;
 let timeLeft;
-let wholeTime = 5 * 60; // manage this to set the whole time
+let wholeTime = 10 * 60; // manage this to set the whole time
 let isPaused = false;
 let isStarted = false;
 
 //Chime
 const chime_displayOutput = document.querySelector('.chime_display_time');
 const chime_setterBtns = document.querySelectorAll('button[data-chime-setter]');
-let chime_intervall = 0.1 * 60 ;
+let chime_intervall = 5 * 60 ;
 
 //refreshes progress bar
 update(wholeTime,wholeTime);
